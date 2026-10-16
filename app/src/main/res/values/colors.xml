@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Light Surface & Key Tokens -->
+    <color name="m3_bg_light">#FFE6EF</color>
+    <color name="m3_key_light">#FFFBFD</color>
+    <color name="m3_func_light">#F7BFD6</color>
+    <color name="m3_func_pressed_light">#EE9DBF</color>
+    <color name="text_on_light">#4A1F33</color>
+    <color name="text_on_light_variant">#7A4A62</color>
+
+    <!-- Material 3 Dark Surface & Key Tokens -->
+    <color name="m3_bg_dark">#2A1B30</color>
+    <color name="m3_key_dark">#42304D</color>
+    <color name="m3_func_dark">#58406A</color>
+    <color name="m3_func_pressed_dark">#75558C</color>
+    <color name="text_on_dark">#FFEAF4</color>
+    <color name="text_on_dark_variant">#E0C4D6</color>
+
+    <!-- Material 3 Primary / Accent Tokens -->
+    <color name="m3_accent">#D6457F</color>
+    <color name="m3_accent_pressed">#B02F64</color>
+    <color name="m3_accent_container_light">#FFD3E4</color>
+    <color name="m3_accent_container_dark">#7A2E55</color>
+
+    <!-- Compatibility tokens mapped to M3 -->
+    <color name="gboard_bg_light">@color/m3_bg_light</color>
+    <color name="gboard_key_light">@color/m3_key_light</color>
+    <color name="gboard_func_light">@color/m3_func_light</color>
+    <color name="gboard_func_pressed_light">@color/m3_func_pressed_light</color>
+
+    <color name="gboard_bg_dark">@color/m3_bg_dark</color>
+    <color name="gboard_key_dark">@color/m3_key_dark</color>
+    <color name="gboard_func_dark">@color/m3_func_dark</color>
+    <color name="gboard_func_pressed_dark">@color/m3_func_pressed_dark</color>
+
+    <color name="gboard_action_blue">@color/m3_accent</color>
+    <color name="gboard_action_blue_pressed">@color/m3_accent_pressed</color>
+
+    <color name="blue">#0061A4</color>
+    <color name="yellow">#E5C158</color>
+</resources>

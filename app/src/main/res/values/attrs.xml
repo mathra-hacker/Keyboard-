@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom theme/token attributes used by the project -->
+    <attr name="fox_background" format="reference|color" />
+    <attr name="accent" format="color" />
+    <attr name="foreground" format="color" />
+    <attr name="foreground_2" format="color" />
+    <attr name="isLight" format="boolean" />
+    <attr name="border" format="color" />
+
+
+
+    <!-- Keyboard key colors -->
+    <attr name="keyNormal" format="color" />
+    <attr name="keyFunction" format="color" />
+    <attr name="keyAction" format="color" />
+    <attr name="keyNormalPressed" format="color" />
+    <attr name="keyFunctionPressed" format="color" />
+    <attr name="keyActionPressed" format="color" />
+    <attr name="keyShadowColor" format="color" />
+
+    <!-- Special key colors used by key_background_special.xml -->
+    <attr name="keySpecial" format="color" />
+    <attr name="keySpecialPressed" format="color" />
+
+    <!-- Attribute used by KeyboardButton view -->
+    <attr name="isSpecial" format="boolean" />
+
+    <!-- Declare styleable so R.styleable.KeyboardButton and R.styleable.KeyboardButton_isSpecial are generated -->
+    <declare-styleable name="KeyboardButton">
+        <attr name="isSpecial" />
+    </declare-styleable>
+
+</resources>
