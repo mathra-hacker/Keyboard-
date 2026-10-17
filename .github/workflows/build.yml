@@ -16,6 +16,7 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      # ubuntu-latest already has the Android SDK, so no setup-android step needed
       - name: Accept Android licenses
         run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
 
@@ -28,4 +29,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: app/build/outputs/apk/debug/*.apk
+          # app has a product flavor ("unicode"), so APK is in apk/unicode/debug/
+          path: app/build/outputs/apk/**/debug/*.apk
+          if-no-files-found: error
